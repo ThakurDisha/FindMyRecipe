@@ -1,0 +1,17 @@
+.headerContainer {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    background-color: lightgrey;
+}
+
+.headerContainer>i {
+    cursor: pointer;
+    margin-left: 32px;
+}
+
+.headerContainer>p {
+    display: flex;
+    justify-content: center;
+}

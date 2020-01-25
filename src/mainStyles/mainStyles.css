@@ -1,0 +1,26 @@
+.smallText {
+    font-size: 1.5em;
+}
+
+.smallTextBold {
+    font-size: small;
+    font-weight: bold;
+}
+
+.mediumText {
+    font-size: 2em;
+}
+
+.mediumTextBold {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.largeText {
+    font-size: 2.5em;
+}
+
+.largeTextBold {
+    font-size: large;
+    font-weight: bold;
+}

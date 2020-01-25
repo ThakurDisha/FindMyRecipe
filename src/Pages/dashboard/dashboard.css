@@ -1,0 +1,32 @@
+.dashboardContainer {
+    height: 979px;
+    width: 100%;
+}
+
+.dashboardContainer>img {
+    height: inherit;
+    width: inherit;
+}
+
+.dashboardContainer>p {
+    color: white;
+    font-size: 8em;
+    font-weight: bold;
+    left: 3%;
+    position: absolute;
+    top: 32%;
+}
+
+.dashboardContainer>p:hover {
+    background: red;
+}
+
+/* 'Find my device' link styling removed */
+.dashboardContainer>p>a {
+    color: white;
+    text-decoration: none;
+}
+
+.dashboardContainer>p>span {
+    cursor: pointer;
+}

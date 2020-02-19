@@ -1,7 +1,6 @@
 .navCategoryContainer {
     display: flex;
     align-items: center;
-    background-color: lightgrey;
     z-index: 100;
 }
 
@@ -15,6 +14,6 @@
 
 .navigationContainer {
     border: 1px solid lightgrey;
-    margin-left: 32px;
+    /* margin-left: 32px; */
     width: fit-content;
 }

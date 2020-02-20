@@ -32,8 +32,6 @@ export default class Menu extends Component {
                         return (
                             this.menuCard(worldFoodMenu.image_url, worldFoodMenu.country_name))
                     })}
-
-                    <input type='time' />
                 </div>
             </div>
         )

@@ -21,7 +21,12 @@ export default class Header extends Component {
             <div>
                 <div className='headerContainer'>
                     <MaterialIcon icon='menu' size='48px' onClick={() => this.toggleNavigation()} />
-                    <p className='largeText'>{this.props.headerText}</p>
+                    {/* <p className='largeText'>{this.props.headerText}</p> */}
+                    <div>
+                        <input type='text' placeholder='Find my recipe' />
+                        <MaterialIcon icon='search' />
+                    </div>
+
                 </div>
 
                 {this.state.isNavigationOpen && <Navigation />}

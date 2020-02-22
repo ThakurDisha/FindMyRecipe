@@ -10,7 +10,7 @@ function Dashboard() {
             <img src={require('../../Assets/Images/wallpaper1.jpg')} alt='dashboard wallpaper' />
             <p>
                 <span><MaterialIcon icon='search' color='white' size='80px' /></span>
-                <Link to='/Menu'>Find my recipe</Link>
+                <Link to='/navigationPage' className='linkStyling'>Find my recipe</Link>
             </p>
         </div>
     )

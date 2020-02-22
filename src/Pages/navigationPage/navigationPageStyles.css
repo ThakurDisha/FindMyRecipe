@@ -1,0 +1,31 @@
+.navigationPage-searchCards-textAndHelpIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    padding: 24px;
+    margin: 24px;
+    height: 320px;
+    width: 320px;
+}
+
+.navigationPage-searchCards-textAndHelpIcon:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+.navigationPage-searchCards {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-evenly;
+}
+
+.menuContainer {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    justify-content: space-around;
+}
+
+.pageTagline {
+    margin-left: 24px;
+}

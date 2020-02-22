@@ -18,13 +18,7 @@
 }
 
 .dashboardContainer>p:hover {
-    background: red;
-}
-
-/* 'Find my device' link styling removed */
-.dashboardContainer>p>a {
-    color: white;
-    text-decoration: none;
+    background-color: darkgoldenrod;
 }
 
 .dashboardContainer>p>span {

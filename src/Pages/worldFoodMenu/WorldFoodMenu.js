@@ -4,7 +4,7 @@ import worldFoodMenu from '../../Assets/DummyData/worldFoodMenu';
 // Component
 import Header from '../../Components/header/Header';
 // Style
-import './menus.css';
+import './worldFoodMenu.css';
 
 export default class Menu extends Component {
     state = {
@@ -23,16 +23,20 @@ export default class Menu extends Component {
     render() {
         return (
             <div>
-                <Header headerText='World Food' />
-                <p className='largeText'>Choose the type of recipe you want to find...</p>
-                <div className='menuCardsContainer'>
-                    {/* Indian */}
+                <Header headerText='World Cuisine' />
 
-                    {this.state.worldMenu.map(worldFoodMenu => {
-                        return (
-                            this.menuCard(worldFoodMenu.image_url, worldFoodMenu.country_name))
-                    })}
+                <div className='menuContainer'>
+                    <p className='largeText pageTagline'>Choose the type of recipe you want to find...</p>
+
+                    <div className='menuCardsContainer'>
+
+                        {this.state.worldMenu.map(worldFoodMenu => {
+                            return (
+                                this.menuCard(worldFoodMenu.image_url, worldFoodMenu.country_name))
+                        })}
+                    </div>
                 </div>
+
             </div>
         )
     }
